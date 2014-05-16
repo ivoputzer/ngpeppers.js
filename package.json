@@ -1,0 +1,31 @@
+{
+  "name": "ngpeppers",
+  "description": "angular boilerplate application",
+  "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com>",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "./node_modules/.bin/gulp",
+    "start": "./node_modules/.bin/gulp watch",
+    "test": "./node_modules/.bin/mocha --require should --reporter spec app/tests/*"
+  },
+  "dependencies": {
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-jade": "*",
+    "gulp-debug": "*",
+    "gulp-rename": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-plumber": "*",
+    "gulp-using": "*",
+    "gulp-stylus": "*",
+    "gulp-browserify": "*",
+    "gulp-ng-annotate": "*",
+    "uglifyify": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
