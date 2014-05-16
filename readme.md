@@ -20,7 +20,7 @@ npm install
 
 You can start the development environment through npm direcly like so:
 ```bash
-npm start # which is basically just an alias for `./node_modules/.bin/gulp watch
+npm start # which is basically just an alias of `./node_modules/.bin/gulp watch
 ```
 
 ### Test
