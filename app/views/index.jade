@@ -1,0 +1,19 @@
+doctype html
+html(lang="en", ng-app="ngpeppers")
+  head
+    title= title
+    base(href="/")
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="css/style.css")
+    script(src='vendor/prefixfree.min.js')
+    block head
+  body(ng-controller="ngpeppers")
+    header
+      nav
+        a(href="#main") main
+        a(href="#info") info
+        a(href="#about") about
+    main(ng-view)
+    footer
+      a(href="https://github.com/ivoputzer") ivoputzer@github
+    script(src='js/body.js')
